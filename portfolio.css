@@ -1,0 +1,80 @@
+.list{
+    list-style: none;
+}
+
+.logo {
+    color:var(--logo-color-text);
+}
+.web-logo{
+    color: var(--acent-color);
+}
+
+
+/*шапка сайта*/
+.list{
+    list-style: none;
+}
+.site-nav .link {
+    color: var(--main-text-color);
+}
+.site-nav .link:hover{
+    color:var(--acent-color);
+}
+.site-nav .link:focus{
+color: var(--main-text-color);
+}
+.site-nav .link.current {
+    color: var(--acent-color);
+        }
+
+.auth-nav .link {
+    color: var(--main-text-color);
+}
+.auth-nav .link:hover{
+    color:var(--acent-color);
+}
+.auth-nav .link:focus{
+color: var(--main-text-color);
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.footer{
+    /* Footer bg */
+
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 1628px;
+background: #2F303A;
+}
+
+.adress {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+color: #FFFFFF;    
+}
+
+.contacts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: rgba(255, 255, 255, 0.6);
+    
+}

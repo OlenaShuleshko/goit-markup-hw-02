@@ -1,0 +1,113 @@
+:root {
+    --main-text-color: #212121;
+    --secondary-text-color: #ffffff;
+    --ouwer-text-color: #757575;
+    --acent-color: #2196f3;
+    --contener-color: #eeeeee;
+    --logo-color-text: #000000;
+    --buttons-port-color: #f5f4fa;
+    --footer-text-color: rgba(255, 255, 255, 0.6);
+    --background-footer-color: #2f303a;
+    --background-section: #e5e5e5;
+    --line-color: #ececec;
+    --background-color: #ffffff;
+    --icon-color: #afb1b8;
+    --main-font: Roboto, sans-serif;
+}
+
+body {
+    background-color: var(-- --background-color);
+    color: var(--main-text-color);
+    font-family: var(--main-font);
+    font-size: 14px;
+    letter-spacing: 0.03em;}
+
+    .logo {
+        color:var(--logo-color-text);
+    }
+    .web-logo{
+        color: var(--acent-color);
+    }
+
+
+/*шапка сайта*/
+    .list{
+        list-style: none;
+    }
+    .site-nav .link {
+        color: var(--main-text-color);
+    }
+    .site-nav .link:hover{
+        color:var(--acent-color);
+    }
+    .site-nav .link:focus{
+color: var(--main-text-color);
+    }
+
+    .site-nav .link.current {
+color: var(--acent-color);
+    }
+
+    .auth-nav .link {
+        color: var(--main-text-color);
+    }
+    .auth-nav .link:hover{
+        color:var(--acent-color);
+    }
+    .auth-nav .link:focus{
+    color: var(--main-text-color);
+    }
+.hero-title, .section-title{
+color: var(--main-text-color);
+}
+
+.hero {
+background: #2F303A;
+}
+
+.feature-list .title {
+    color: var(--main-text-color);
+}
+
+.section-team {
+    background-color: var(--buttons-port-color);
+}
+
+.button{
+    position: absolute;
+width: 216px;
+height: 50px;
+left: 692px;
+top: 430px;
+
+}
+.button.primary{
+    color: var(--background-color);
+    background-color: var(--acent-color)
+}
+
+.footer{
+    /* Footer bg */
+
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 1628px;
+background: #2F303A;
+}
+
+
+
+.contacts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: rgba(255, 255, 255, 0.6);
+    
+}
