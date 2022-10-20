@@ -61,6 +61,8 @@ color: var(--acent-color);
     color: var(--main-text-color);
     }
 
+/*--hero--*/
+
 .hero-title, .section-title{
 color: var(--main-text-color);
 }
