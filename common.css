@@ -31,6 +31,7 @@ body {
     }
 a {
     text-decoration: none;
+    font-style: normal;
 }
 
 
@@ -38,16 +39,21 @@ a {
 .adress {
 
     font-size: 14px;
-    line-height: 1,62;
+    line-height: 1.7;
+
     /* or 171% */
     
     letter-spacing: 0.03em;
-color: #FFFFFF;    
+color: #FFFFFF; }
+
+.adress:visited{
+    color: var(--footer-text-color);
 }
+
 
 .contacts {
     font-size: 14px;
-    line-height: 1,62;
+    line-height: 1.7;
     /* or 171% */
     
     letter-spacing: 0.03em;

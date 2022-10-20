@@ -16,7 +16,7 @@
 }
 
 body {
-    background-color: var(-- --background-color);
+    background-color: var(--background-color);
     color: var(--main-text-color);
     font-family: var(--main-font);
     font-size: 14px;
@@ -60,6 +60,7 @@ color: var(--acent-color);
     .auth-nav .link:focus{
     color: var(--main-text-color);
     }
+
 .hero-title, .section-title{
 color: var(--main-text-color);
 }
@@ -68,7 +69,7 @@ color: var(--main-text-color);
 background: #2F303A;
 font-weight: 900;
 font-size: 44px;
-line-height: 1,32;
+line-height: 1.32;
 /* or 136% */
 
 text-align: center;
@@ -79,9 +80,9 @@ text-transform: uppercase;
 color: var(--secondary-text-color);
 }
 .title{
-    ont-weight: 700;
+font-weight: 700;
 font-size: 14px;
-line-height: 1,15;
+line-height: 1.15;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
@@ -89,18 +90,16 @@ text-transform: uppercase;
     color: var(--main-text-color);
 }
 .features-list .text{
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 1,72;
+line-height: 1.72;
 /* or 171% */
 }
 
 .section-title {
     font-weight: 700;
 font-size: 36px;
-line-height: 1,16;
+line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 }
@@ -112,7 +111,7 @@ letter-spacing: 0.03em;
 .button{
     font-weight: 700;
 font-size: 16px;
-line-height: 1,84;
+line-height: 1.84;
 }
 .button:hover {
     color: var(--buttons-port-color);
@@ -147,24 +146,21 @@ width: 1600px;
 height: 252px;
 left: 0px;
 top: 1628px;
-background: #2F303A;
+background-color: var(--background-footer-color);
 }
+
 .adress {
 font-size: 14px;
-line-height: 1,73;
+line-height: 1.73;
 /* or 171% */
 letter-spacing: 0.03em;
 color: var(--secondary-text-color);
 
 }
 .contacts {
-    font-family: 'Roboto';
-    font-size: 14px;
-    line-height: 1,73;
-    /* or 171% */
-    
-    letter-spacing: 0.03em;
-    
-    color: rgba(255, 255, 255, 0.6);
-    
+font-size: 14px;
+line-height: 1.73;
+/* or 171% */
+letter-spacing: 0.03em;    
+color: var(--footer-text-color)
 }
