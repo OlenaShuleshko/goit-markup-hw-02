@@ -18,6 +18,12 @@ body {
     letter-spacing: 0.03em;
     }
 
+    a {
+        text-decoration: none;
+        font-style: normal;
+    }
+    
+
 
 /*--header--*/
 .list{
@@ -86,6 +92,7 @@ height: 252px;
 left: 0px;
 top: 1628px;
 background-color: var(--background-footer-color);
+font-style: normal;
 }
 .adress {
 font-size: 14px;
@@ -93,8 +100,12 @@ line-height: 1.71;
 /* or 171% */
 letter-spacing: 0.03em;
 color: var(--secondary-text-color);
-
 }
+
+.adress:visited{
+    color: var(--footer-text-color);
+}
+
 .contacts {
     font-size: 14px;
     line-height: 1.71;
