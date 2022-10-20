@@ -22,15 +22,18 @@ body {
     font-size: 14px;
     letter-spacing: 0.03em;}
 
+    
+
     .logo {
         color:var(--logo-color-text);
+        font-family: 'Raleway';
     }
     .web-logo{
         color: var(--acent-color);
     }
 
 
-/*шапка сайта*/
+/*--header--*/
     .list{
         list-style: none;
     }
@@ -63,10 +66,43 @@ color: var(--main-text-color);
 
 .hero {
 background: #2F303A;
-}
+font-weight: 900;
+font-size: 44px;
+line-height: 1,32;
+/* or 136% */
 
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+.hero-title{
+color: var(--secondary-text-color);
+}
+.title{
+    ont-weight: 700;
+font-size: 14px;
+line-height: 1,15;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
 .feature-list .title {
     color: var(--main-text-color);
+}
+.features-list .text{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1,72;
+/* or 171% */
+}
+
+.section-title {
+    font-weight: 700;
+font-size: 36px;
+line-height: 1,16;
+text-align: center;
+letter-spacing: 0.03em;
 }
 
 .section-team {
@@ -74,17 +110,35 @@ background: #2F303A;
 }
 
 .button{
-    position: absolute;
-width: 216px;
-height: 50px;
-left: 692px;
-top: 430px;
-
+    font-weight: 700;
+font-size: 16px;
+line-height: 1,84;
+}
+.button:hover {
+    color: var(--buttons-port-color);
+}
+.button:focus {
+    color: var(--acent-color);
+    background-color: var(--acent-color);
 }
 .button.primary{
     color: var(--background-color);
     background-color: var(--acent-color)
 }
+
+.section-team{
+    /* card bg */
+
+background: #FFFFFF;
+/* material shadow v1 */
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+
+}
+
+/*--footer--*/
+
 
 .footer{
     /* Footer bg */
@@ -95,15 +149,18 @@ left: 0px;
 top: 1628px;
 background: #2F303A;
 }
+.adress {
+font-size: 14px;
+line-height: 1,73;
+/* or 171% */
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
 
-
-
+}
 .contacts {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,73;
     /* or 171% */
     
     letter-spacing: 0.03em;

@@ -12,18 +12,46 @@
     --line-color: #ececec;
     --background-color: #ffffff;
     --icon-color: #afb1b8;
-    --main-font: Roboto, sans-serif;
+    --main-font: 'Roboto', sans-serif;
 }
 body {
-    background-color: var(-- --background-color);
+    background-color: var(--background-color);
     color: var(--main-text-color);
     font-family: var(--main-font);
     font-size: 14px;
-    letter-spacing: 0.03em;}
+    letter-spacing: 0.03em;
+    }
 
+/*--header--*/
     .logo {
         color:var(--logo-color-text);
     }
     .web-logo{
         color: var(--acent-color);
     }
+a {
+    text-decoration: none;
+}
+
+
+/*--footer--*/
+.adress {
+
+    font-size: 14px;
+    line-height: 1,62;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+color: #FFFFFF;    
+}
+
+.contacts {
+    font-size: 14px;
+    line-height: 1,62;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: rgba(255, 255, 255, 0.6);
+    
+}
